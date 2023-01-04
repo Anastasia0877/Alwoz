@@ -6,6 +6,53 @@
     align-items: center;
     margin: 0px auto 158px;
 }
+.logo-lang{
+    display: flex;
+    align-items: center;
+    width: 205px;
+    justify-content: space-between;
+}
+.site-nav .nice-select{
+    position: relative;
+    padding: 0;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.site-nav .nice-select.open .list {
+    background: none;
+    opacity: 1;
+    transition: 0.3s;
+}
+.site-nav .nice-select .list{
+    background-color: transparent;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    opacity: 0;
+    transition: 0.3s;
+    
+}
+.site-nav .nice-select .option{
+    padding-left: 0;
+    padding-right: 10px;
+}
+.site-nav .nice-select .option:focus{
+   background-color:transparent;
+}
+.site-nav .nice-select .option.selected.focus {
+    background-color: transparent;
+}
+
 .menu ul{
     width: 879px;
     display: flex;
