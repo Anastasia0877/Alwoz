@@ -1,0 +1,42 @@
+:root{
+    /* color */
+    --black:#000;
+    --white:#fff;
+    --yellow:#FFE35A;
+    --blue:#6285FC;
+    --grey:#434343;
+    --blue:#5975E2;
+    --bg-footer:#2E2E2E;
+    --gradient-blue:linear-gradient(180deg, #2B2B68 0%, #6285FC 100%);
+    --gradient-purple:linear-gradient(180deg, #7B87C0 0%, #31317A 100%);
+    /* border */
+    --br-btn:47.5px;
+/* font */
+--montserrat: 'Montserrat', sans-serif;
+--russo-one: 'Russo One', sans-serif;
+/* font-size */
+--font-menu:20px;
+--font-select:25px;
+--title:64px;
+--title-service:32px;
+--desc-service:24px;
+--title-case:40px;
+--title-case-center:48px;
+--title-news:54px;
+--description-news:30px;
+--subtitle:40px;
+--project-description:30px;
+--font-big-btn:30px;
+--font-small-btn:20px;
+--font-case-btn:24px;
+--font-price-case:96px;
+--fond-desc-case:32px;
+--font-footer:15px;
+
+
+/* font-weight */
+
+
+
+
+}

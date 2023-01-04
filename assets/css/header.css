@@ -1,0 +1,31 @@
+.site-nav {
+    max-width: 1702px;
+    padding: 40px 12px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto 158px;
+}
+.menu ul{
+    width: 879px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    font-family: var(--montserrat);
+    font-size: var(--font-menu);
+    color: var(--white);
+}
+.menu-action {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-action img{
+    width: 32px;
+    height: 32px;
+}
