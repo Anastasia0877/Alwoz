@@ -7,10 +7,9 @@
     --grey:#434343;
     --blue:#5975E2;
     --bg-footer:#2E2E2E;
+    --color-line:#D9D9D9;
     --gradient-blue:linear-gradient(180deg, #2B2B68 0%, #6285FC 100%);
     --gradient-purple:linear-gradient(180deg, #7B87C0 0%, #31317A 100%);
-    /* border */
-    --br-btn:47.5px;
 /* font */
 --montserrat: 'Montserrat', sans-serif;
 --russo-one: 'Russo One', sans-serif;
@@ -32,6 +31,7 @@
 --font-price-case:96px;
 --fond-desc-case:32px;
 --font-footer:15px;
+--size-cyber-service-title:40px;
 
 
 /* font-weight */
