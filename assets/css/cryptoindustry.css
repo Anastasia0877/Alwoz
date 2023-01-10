@@ -1,0 +1,132 @@
+
+.cryptoindustry-screen_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+    padding: 12px;
+}
+.cryptoindustry-screen__info {
+    display: flex;
+    justify-content: center;
+}
+.cryptoindustry-screen-slider-container {
+    max-width: 1544px;
+    margin: 0 auto 47px;
+}
+.new,
+.article {
+    padding: 12px;
+    position: relative;
+}
+.new_container{
+   padding-top:50px;
+    display: flex;
+    position: relative;
+}
+.new-container__img {
+    position: relative;
+    z-index: 1;
+    margin-right:-300px ;
+    margin-top: -50px;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+.new__info-box {
+    margin-left: auto;
+    margin-right: 0;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 40px 65px 55px 330px;
+}
+.new-date {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.015em;
+color: #5F5F5F;
+margin-bottom: 26px;
+}
+.cryptoindustry-slider__title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 66px;
+letter-spacing: -0.015em;
+color: #000000;
+margin-bottom: 28px;
+}
+.cryptoindustry-slider__description {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+letter-spacing: -0.015em;
+color: #000000;
+margin-bottom: 60px;
+}
+.cryptoindustry-slider__btn {
+    display: inline-flex;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+letter-spacing: -0.015em;
+color: #FFFFFF;
+background: #6285FC;
+border-radius: 20px;
+padding: 20px 78px;
+}
+.news-slider__arrow,
+.article-slider__arrow,
+.youtube-slider__arrow{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.article_container{
+    display: flex;
+}
+.article-container__img img,
+.new-container__img img
+{
+    max-width: 430px;
+    max-height: 430px;
+}
+.article-container__img {
+    margin-right: 60px;
+}
+.article-slider__title,
+.article-slider__description{
+    color: var(--white);
+}
+.cryptoindustry-screen_container__youtube{
+    margin-bottom: 160px;
+}
+.youtube-slider{
+    margin: 0 auto;
+}
+.slider-container__youtube{
+    max-width: 1725px;
+    margin: 0 auto;
+}
+.youtube_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+}
+.youtube-video iframe{
+    width: 450px;
+    height:250px ;
+    border-radius: 20px;
+    margin: 0 auto;   
+}
+.youtube-video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}

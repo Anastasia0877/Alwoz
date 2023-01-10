@@ -1,13 +1,19 @@
 @import url(reset.css);
 @import url(variable.css);
 @import url(font.css);
-@import url(media.css);
 @import url(header.css);
 @import url(nice-select.css);
 @import url(main.css);
 @import url(slick.css);
 @import url(cyber.css);
-@import url(case-slider-test.css);
-
-
+@import url(project.css);
+@import url(page-project.css);
+@import url(cryptoindustry.css);
+@import url(list.css);
+@import url(new-article.css);
+@import url(info.css);
+@import url(basket.css);
+@import url(like.css);
+@import url(account.css);
 @import url(footer.css);
+@import url(media.css);

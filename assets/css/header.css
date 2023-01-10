@@ -2,15 +2,23 @@
     max-width: 1702px;
     padding: 40px 12px 12px 12px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0px auto 158px;
 }
-.logo-lang{
+.logo-lang-menu__container{
     display: flex;
     align-items: center;
-    width: 205px;
-    justify-content: space-between;
+
+}
+.logo{
+    margin-right: 40px;
+    width:126px;
+    height:32px;
+}
+.logo img{
+    width:126px;
+    height:32px;
+    object-fit: contain;
 }
 .site-nav .nice-select{
     position: relative;
@@ -26,12 +34,16 @@ font-size: 25px;
 line-height: 30px;
 letter-spacing: -0.015em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white);
+margin-right: 200px;
+
 }
 .site-nav .nice-select.open .list {
-    background: none;
+    background: var(--white);
+border-radius: 20px;
     opacity: 1;
     transition: 0.3s;
+    padding: 10px 17px;
 }
 .site-nav .nice-select .list{
     background-color: transparent;
@@ -40,7 +52,13 @@ color: #FFFFFF;
     grid-template-columns: repeat(2, 1fr);
     opacity: 0;
     transition: 0.3s;
-    
+    font-family: var(--montserrat);
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 18px;
+letter-spacing: -0.015em;
+color: var(--black);
 }
 .site-nav .nice-select .option{
     padding-left: 0;
@@ -49,14 +67,21 @@ color: #FFFFFF;
 .site-nav .nice-select .option:focus{
    background-color:transparent;
 }
+.site-nav .nice-select .option:hover, .site-nav .nice-select .option.focus,  .site-nav .nice-select .option.selected.focus {
+    background-color:transparent; }
 .site-nav .nice-select .option.selected.focus {
     background-color: transparent;
 }
-
+.menu{
+    margin-right: 202px;
+}
 .menu ul{
     width: 879px;
     display: flex;
     justify-content: space-between;
+}
+.burger-account{
+    display: none;
 }
 .menu ul li a{
     text-decoration: none;
@@ -68,7 +93,7 @@ color: #FFFFFF;
     color: var(--white);
 }
 .menu-action {
-    width: 200px;
+    min-width: 200px;
     display: flex;
     justify-content: space-between;
 }

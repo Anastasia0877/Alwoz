@@ -1,0 +1,181 @@
+.basket__title{
+    color: var(--black);
+}
+.basket-page_container{
+    max-width: 1582px;
+    margin: 0 auto;
+    position: relative;
+    padding: 12px;
+}
+.basket__container{
+    display: flex;
+    justify-content: space-between;
+}
+.basket-list__item{
+    max-width: 1005px;
+    position: relative;
+    background: #FAFAFA;
+border: 1px solid #AFAFAF;
+border-radius: 20px;
+padding: 25px 52px 25px 25px;
+display: flex;
+margin-bottom: 55px;
+}
+.basket-list__item img{
+    max-width:245px ;
+    max-height: 145px;
+}
+.basket-item__info{
+    margin-left: 30px;
+}
+.basket-item__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.basket-item__description{
+    max-width: 440px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    
+    color: #868686;
+}
+
+.basket-item__price{
+    font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+color: #000000;
+margin-right: 0;
+margin-left: auto;
+}
+.basket-item__delete{
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #B5B5B5;
+    position: absolute;
+    right: 0;
+    top: calc(0% - 30px);
+}
+.continue-buy,
+.clear-basket{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.015em;
+color: #5975E2;
+cursor: pointer;
+}
+.continue-buy{
+    position: absolute;
+    left: 380px;
+    top:10px;
+}
+.clear-basket{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+
+.basket__total {
+    max-width: 505px;
+    max-height: 377px;
+    background: #EEEEEE;
+border: 1px solid #B4B4B4;
+border-radius: 20px;
+padding: 42px 29px 50px 35px;
+}
+.basket-total__price{
+    margin-bottom: 35px;
+}
+.basket-total__price,
+.basket-total__promocode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basket-total__promocode{
+margin-bottom: 107px;
+}
+
+.basket-total-price__title-sum,
+.basket-total-promocode__title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #000000;
+}
+.basket-total-price__sum {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+color: #000000;
+}
+
+.basket-total-promocode__input {
+    width: 175px;
+height: 34px;
+    background: #D9D9D9;
+border-radius: 10px;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
+letter-spacing: 0.02em;
+
+color: #000000;
+padding: 12px;
+}
+.basket__submiit{
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+}
+.checkout {
+    background: #FFE35A;
+border-radius: 57px;
+padding: 27px 85px;
+border: none;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #000000;
+}
